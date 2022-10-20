@@ -1,10 +1,22 @@
+mais = '+'
+menos = '-'
+
+reta = menos *5
+
 def linha():
-    mais = '+'
-    menos = '-'
-    print(mais + (menos *5))
+    
+    print((mais + (menos *5))*2 + mais )
     
 
 def desenhagrade():
     linha()
+    
+     
+    linha()
+     
+    linha() 
+     
+    
+    
    
 desenhagrade()    
